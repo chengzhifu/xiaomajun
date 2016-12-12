@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/*全局样式设置*/
+/*一、全局样式设置*/
 body,ul {
     margin: 0;
     padding: 0;
@@ -16,22 +16,27 @@ a {
 }
 /*全局样式设置结束*/
 
-/*开始网页头部设置*/
+/*二、开始网页头部设置*/
 #header {                       /*设置网页头部的样式*/
     width: 100%;
     min-width: 1280px;
     height:50px;
-    background-color:rgb(0, 168, 230)
+    background-color:rgb(0, 168, 230);
+    position: relative;
 }
 #header .logofont {             /*设置logo文字的样式*/
     font-size: 20px;
-    margin: 12px;
+    margin: 13px;
     color: white;
     float: left;
+    position: absolute;
+    left: 30px;
 }
-#header .navcss {               /*设置导航的样式*/
+#header .navcss1 {               /*设置导航的样式*/
     height: 50px;
-    background-color:rgb(0, 168, 230)
+    background-color:rgb(0, 168, 230);
+    position: absolute;
+    left: 380px;
 }
 #header .navlink {              /*设置导航的列表样式*/
     line-height: 50px;
@@ -50,10 +55,62 @@ a {
 #header .navlink > li > a:hover {       /*设置导航链接鼠标悬停样式*/
     background-color:rgb(5, 130, 200);
 }
-#header .search {
-    width: 200px;
+/*#header .search {
+    width: 210px;
     height:50px;
-    background-color: red;
-    
+    position: absolute;
+    top: 0;
+    right: 50px;
 }
+#header .searchinput {
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    top:12px;
+}
+#header .searchbutton {
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    font-weight: bold;
+}*/
+
 /*结束网页头部样式设置*/
+
+/*三、开始设置网页主题部分*/
+/*、网页副导航部分*/
+#section {
+    width: 300px;
+    height: 1000px;
+    margin-left: 43px;
+    /*background-color: red;*/
+    position: relative;
+}
+#section .navcss2 {
+    width: 280px;
+    height: 900px;
+    /*background-color: green;*/
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border-right: 1px solid gray;
+}
+#section .navlink2 {
+    font-size: 15px;
+}
+#section .navlink2 > li {
+    width: 270px;
+    height: 25px;
+}
+#section .navlink2 > li > a {
+    display: block;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#section .navlink2 > li > a:hover {
+    color: red;
+}
