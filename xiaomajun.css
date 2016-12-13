@@ -19,7 +19,7 @@ a {
 /*二、开始网页头部设置*/
 #header {                       /*设置网页头部的样式*/
     width: 100%;
-    min-width: 1280px;
+    min-width: 1000px;
     height:50px;
     background-color:rgb(0, 168, 230);
     position: relative;
@@ -57,7 +57,7 @@ a {
 #header .navlink > li > a:hover {       /*设置导航链接鼠标悬停样式*/
     background-color:rgb(5, 130, 200);
 }
-#header .search {
+/*#header .search {
     width: 210px;
     height:50px;
     position: absolute;
@@ -78,7 +78,7 @@ a {
     right: 0;
     font-weight: bold;
     letter-spacing: 1px;
-}
+}*/
 
 /*结束网页头部样式设置*/
 
@@ -145,21 +145,19 @@ a {
 /*开始网页底部设置*/
 #footer {
     width: 100%;
-    min-width: 1280px;
-    height:200px;
+    min-width: 1000px;
+    height:250px;
     position: relative;
     font-family: 微软雅黑;
     letter-spacing: 1px;
 }
 #footer .title {
     position: absolute;
-    width: 1150px;
+    width: 90%;
     height: 100px;
     margin-top: 100px;
     margin-left: 50px;
     border-top:1px solid gray;
     border-bottom: 1px solid gray; 
 }
-
-
 /*结束网页底部设置*/
