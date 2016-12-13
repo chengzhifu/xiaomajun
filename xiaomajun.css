@@ -26,6 +26,7 @@ a {
 }
 #header .logofont {             /*设置logo文字的样式*/
     font-size: 20px;
+    letter-spacing: 1px;
     margin: 13px;
     color: white;
     float: left;
@@ -51,6 +52,7 @@ a {
     display: block;
     color: white;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 #header .navlink > li > a:hover {       /*设置导航链接鼠标悬停样式*/
     background-color:rgb(5, 130, 200);
@@ -75,6 +77,7 @@ a {
     top: 12px;
     right: 0;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /*结束网页头部样式设置*/
@@ -83,12 +86,10 @@ a {
 /*、网页副导航部分*/
 #section {
     width: 300px;
-    /*height: 1000px;*/
+    height: 1500px;
     margin-left: 53px;
     position: relative;
     float: left;
-    height: 1500px;
-    font-family: 微软雅黑;
 }
 #section .navcss2 {
     width: 280px;
@@ -96,6 +97,8 @@ a {
     top: 30px;
     left: 10px;
     border-right: 1px solid gray;
+    font-family: 微软雅黑;
+    letter-spacing: 1px;
 }
 #section .navlink2 {
     font-size: 15px;
@@ -123,6 +126,7 @@ a {
     position: relative;
     font-size: 15px;
     font-family: 微软雅黑;
+    letter-spacing: 1px;
 }
 #text .title {
     margin-top: 50px;
@@ -130,12 +134,10 @@ a {
 }
 #text .content {
     margin-top: 30px;
-
 }
 #text .content > p {
     text-indent: 30px;
     line-height: 30px;
-
 }
 
 /*结束文章格式设置*/
@@ -147,6 +149,7 @@ a {
     height:200px;
     position: relative;
     font-family: 微软雅黑;
+    letter-spacing: 1px;
 }
 #footer .title {
     position: absolute;
